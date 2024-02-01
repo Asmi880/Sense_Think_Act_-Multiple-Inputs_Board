@@ -62,8 +62,6 @@ void loop() {
   // Motion detection using PIR sensor
   if (digitalRead(pirPin) == HIGH) {
     Serial.println("Motion detected!");
-    // Add your code here to perform actions when motion is detected
-    // For example, you can turn on an additional LED or perform other tasks.
   } else {
     Serial.println("No motion detected");
   }
